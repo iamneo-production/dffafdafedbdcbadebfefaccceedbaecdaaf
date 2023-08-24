@@ -229,7 +229,7 @@ describe('Login Form Validation', () => {
     expect(location.href).toBe('home.html');
 });
 
-  it('Week4_Day1_Invalid_User_Login', () => {
+  it('Week4_Day2_Invalid_User_Login', () => {
         // Mock form inputs for an invalid user
         document.getElementById('username').value = 'invalidUser';
         document.getElementById('password').value = 'InvalidPassword';
